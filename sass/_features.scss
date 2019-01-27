@@ -4,7 +4,29 @@
 
   margin: 15rem 0;
   //we want this grid item to become a grid container
-  display: grid;
+  display: grid; //nested grid 2 levels deep
   grid-template-columns: repeat(3, 1fr);
   grid-gap: 6rem;
+  align-items: start; //aligns text to the start so even when less content they start at the top of container
+}
+
+.feature {
+
+  display: grid; //nested grid 3 levels deep
+  grid-template-columns: min-content 1fr;
+  grid-row-gap: 1.5rem; //creating space around icon, heading and content
+  grid-column-gap: 2.5rem;
+
+  &__icon {
+    fill: $color-primary;
+    width: 4.5rem;
+    height: 4.5rem;
+    grid-row: 1 / span 2; //text spans across row
+    transform: translateY(-1rem); //fix positioning of icon
+  }
+
+  &__text {
+    font-size: 1.7rem;
+
+  }
 }
