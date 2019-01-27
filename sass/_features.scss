@@ -5,7 +5,7 @@
   margin: 15rem 0;
   //we want this grid item to become a grid container
   display: grid; //nested grid 2 levels deep
-  grid-template-columns: repeat(3, 1fr);
+  grid-template-columns: repeat(auto-fit, minmax(25rem, 1fr)); //this is creating responsive grid sizing
   grid-gap: 6rem;
   align-items: start; //aligns text to the start so even when less content they start at the top of container
 }

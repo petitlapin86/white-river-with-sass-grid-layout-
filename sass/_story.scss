@@ -4,7 +4,16 @@
   }
 
   &__content { background-color: $color-grey-light-1;
-      grid-column: full-start / col-end 4;
+      grid-column: col-start 5 / full-end;
+      padding: 6rem 12rem;
+
+      display: grid; //aligning words & band button along vertical axis
+      align-content: center;//fixes band button alignment
   }
 
+  &__text {
+    font-size: 1.5rem;
+    font-style: italic;
+    margin-bottom: 4rem;
+  }
 }
