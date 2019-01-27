@@ -34,3 +34,11 @@ body {
   font-weight: 300; //font weight and info is linked in html head
   line-height: 1.6;
 }
+
+.container {
+  display: grid;
+  grid-template-rows: 80vh min-content 40vw repeat(3, min-content); //defining grid row sizes
+  //below: we want to have a slimmer side bar column and then 8 columns with the width of each column to be between the minimum content and 140px each.
+  grid-template-columns: [sidebar-start] 8rem [sidebar-end full-start] 1fr [center-start] repeat(8,
+  [col-start] minmax(min-content, 14rem)[col-end]) [center-end] 1fr [full-end];
+}
