@@ -1,4 +1,8 @@
 .features {
   background-color: $color-grey-light-1;
   grid-column: center-start / center-end;
+
+  //we want this grid item to become a grid container
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
 }

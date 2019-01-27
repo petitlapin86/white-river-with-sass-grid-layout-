@@ -37,7 +37,9 @@ body {
 
 .features {
   background-color: #f9f7f6;
-  grid-column: center-start / center-end; }
+  grid-column: center-start / center-end;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr); }
 
 .story__pictures {
   background-color: #c69963;
