@@ -18,14 +18,15 @@ $font-display: 'Josefin Sans', sans-serif;
 *,
 *::before,
 *::after {
-  margin: 0;
-  padding: 0;
-  box-sizing: inherit;
+    margin: 0;
+    padding: 0;
+    box-sizing: inherit;
 }
+
 
 html {
   box-sizing: border-box;
-  font-sixe: 62.5%; //so 1 rem equals exactly 10 pixels.
+  font-size: 62.5%; //so 1 rem equals exactly 10 pixels.
 }
 
 body {
@@ -35,10 +36,14 @@ body {
   line-height: 1.6;
 }
 
-.container {
-  display: grid;
-  grid-template-rows: 80vh min-content 40vw repeat(3, min-content); //defining grid row sizes
-  //below: we want to have a slimmer side bar column and then 8 columns with the width of each column to be between the minimum content and 140px each.
-  grid-template-columns: [sidebar-start] 8rem [sidebar-end full-start] 1fr [center-start] repeat(8,
-  [col-start] minmax(min-content, 14rem)[col-end]) [center-end] 1fr [full-end];
+  .container {
+      display: grid;
+      grid-template-rows: 80vh min-content 40vw repeat(3, min-content);
+      grid-template-columns: [sidebar-start] 8rem [sidebar-end full-start] minmax(6rem, 1fr) [center-start] repeat(8, [col-start] minmax(min-content, 14rem) [col-end]) [center-end] minmax(6rem, 1fr) [full-end];
+
+& > * {
+  padding: 40px;
+  font-size: 3rem;
+}
+
 }
