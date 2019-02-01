@@ -1,5 +1,5 @@
 .footer {
-  background-color: $color-grey-dark-1;
+  background-color: $color-secondary;
   grid-column: full-start / full-end;
 
   padding: 8rem;
@@ -9,6 +9,7 @@
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(15rem, 1fr)); //auto deciding number of columns based on content, minmax is helping make it automatically responsive
     grid-gap: 2rem;
+    align-items: center; //aligns grid items along column axis (vertically)
 
     &__link:link,
     &__link:visited {
@@ -20,11 +21,21 @@
       text-align: center;
       padding: 1.5rem;
       display: block;
-
-      background-color: rgba(#fff, .05);
-
+      transition: all .2s; //small animation
     }
 
+    &__link:hover,
+    &__link:active {
+      background-color: rgba(#fff, .05); //changes color on hover
+      transform: translateY(-3px); //animates on hover
+    }
+  } //ends nav
+
+  .copyright {
+    font-size: 1.4rem;
+    color: $color-grey-light-2;
+    margin-top: 6rem;
+    text-align: center;
   }
 
-}
+} //ends footer
