@@ -3,7 +3,13 @@
     grid-column: full-start / col-end 4;
 
     display: grid;
-  }
+
+    @media only screen and (max-width: $bp-medium) {
+        grid-column: 1 / -1;
+        padding: 6rem;
+    }
+}
+
 
   &__img--1 {
       width: 100%;

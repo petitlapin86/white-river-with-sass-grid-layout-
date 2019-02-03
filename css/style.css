@@ -137,6 +137,12 @@ body {
   grid-template-columns: minmax(min-content, max-content);
   grid-row-gap: 1.5rem;
   justify-content: center; }
+  @media only screen and (max-width: 50em) {
+    .header {
+      grid-column: 1 / -1; } }
+  @media only screen and (max-width: 37.5em) {
+    .header {
+      padding: 5rem; } }
   .header__logo {
     height: 3rem;
     justify-self: center; }
@@ -151,19 +157,28 @@ body {
   display: grid;
   align-content: center;
   justify-content: center;
-  gird-row-gap: 2rem;
-  justify-items: center; }
+  justify-items: center;
+  grid-row-gap: 2rem; }
+  @media only screen and (max-width: 50em) {
+    .calendar {
+      grid-column: 1 / -1; } }
   .calendar__list {
     display: grid;
     grid-template-columns: min-content max-content;
-    grid-columns-gap: 2rem;
+    grid-column-gap: 2rem;
     grid-row-gap: 5vh;
     align-items: center; }
+    @media only screen and (max-width: 50em) {
+      .calendar__list {
+        grid-template-columns: repeat(3, min-content max-content); } }
+    @media only screen and (max-width: 37.5em) {
+      .calendar__list {
+        grid-template-columns: min-content max-content; } }
   .calendar__img {
     width: 7rem;
     border-radius: 50%;
     display: block; }
-  .calendar__details {
+  .calendar__info {
     text-transform: uppercase;
     color: #aaa;
     margin-top: -3px; }
@@ -194,6 +209,10 @@ body {
   background-color: #c69963;
   grid-column: full-start / col-end 4;
   display: grid; }
+  @media only screen and (max-width: 50em) {
+    .story__pictures {
+      grid-column: 1 / -1;
+      padding: 6rem; } }
 
 .story__img--1 {
   width: 100%;
