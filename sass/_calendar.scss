@@ -28,13 +28,15 @@
         @media only screen and (max-width: $bp-small) {
             grid-template-columns: min-content max-content;
         }
+
+
     }
 
-    &__img {
-        width: 7rem;
-        border-radius: 50%;
-        display: block;
-    }
+  &__img {
+      width: 7rem;
+      border-radius: 50%;
+      display: block;
+   }
 
     &__info {
         text-transform: uppercase;
@@ -42,4 +44,10 @@
         margin-top: -3px;
 
     }
+
+    &__btn {
+      margin-top: 3rem;
+      align-self: center;
+      justify-self: center;
+  }
 }

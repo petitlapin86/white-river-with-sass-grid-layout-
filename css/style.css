@@ -127,7 +127,7 @@ body {
 .header {
   background-color: #54483A;
   grid-column: full-start / col-end 6;
-  background-image: linear-gradient(rgba(16, 29, 44, 0.93), rgba(16, 29, 44, 0.93)), url(../img/hero.jpeg);
+  background-image: linear-gradient(rgba(16, 29, 44, 0.53), rgba(16, 29, 44, 0.53)), url(../img/vermont.jpeg);
   background-size: cover;
   background-position: center;
   padding: 8rem;
@@ -182,6 +182,10 @@ body {
     text-transform: uppercase;
     color: #aaa;
     margin-top: -3px; }
+  .calendar__btn {
+    margin-top: 3rem;
+    align-self: center;
+    justify-self: center; }
 
 .features {
   grid-column: center-start / center-end;
@@ -225,6 +229,10 @@ body {
   display: grid;
   align-content: center;
   justify-items: start; }
+  @media only screen and (max-width: 50em) {
+    .story__content {
+      grid-column: 1 / -1;
+      grid-row: 5 / 6; } }
 
 .story__text {
   font-size: 1.5rem;
