@@ -127,7 +127,7 @@ body {
 .header {
   background-color: #54483A;
   grid-column: full-start / col-end 6;
-  background-image: linear-gradient(rgba(16, 29, 44, 0.53), rgba(16, 29, 44, 0.53)), url(../img/vermont.jpeg);
+  background-image: linear-gradient(rgba(17, 41, 51, 0.53), rgba(17, 41, 51, 0.53)), url(../img/vermont.jpeg);
   background-size: cover;
   background-position: center;
   padding: 8rem;
@@ -151,7 +151,7 @@ body {
     justify-self: start; }
 
 .calendar {
-  background-color: #101d2c;
+  background-color: #112933;
   grid-column: col-start 7 / full-end;
   padding: 3rem;
   display: grid;
@@ -267,7 +267,7 @@ body {
     font-size: 1.6rem;
     text-align: center;
     padding: 1.25rem;
-    background-color: #101d2c;
+    background-color: #112933;
     color: #fff;
     font-weight: 400;
     transform: translateY(50%); }
@@ -342,7 +342,7 @@ body {
     display: block; }
 
 .footer {
-  background-color: #101d2c;
+  background-color: #112933;
   grid-column: full-start / full-end;
   padding: 8rem; }
   .footer .nav {

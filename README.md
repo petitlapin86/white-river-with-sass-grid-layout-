@@ -2,3 +2,5 @@ Redesign of a website for the town of white river junction. This is a portfolio 
 
 
 To initialize build process type into terminal: npm install
+
+To start webserver type into terminal: npm run start
