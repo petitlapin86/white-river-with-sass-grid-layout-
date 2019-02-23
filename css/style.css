@@ -49,7 +49,7 @@ body {
 
 .heading-3 {
   font-size: 1.6rem;
-  color: #CDA34F;
+  color: #EDDBCD;
   text-transform: uppercase; }
 
 .heading-4 {
@@ -71,7 +71,7 @@ body {
   cursor: pointer;
   transition: all .2s; }
   .btn:hover {
-    background-color: #373F27; }
+    background-color: #c69963; }
 
 .mb-sm {
   margin-bottom: 2rem; }
