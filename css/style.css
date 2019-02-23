@@ -35,7 +35,7 @@ body {
 
 .heading-1 {
   font-size: 4.5rem;
-  color: #f9f7f6;
+  color: #EDDBCD;
   line-height: 1; }
 
 .heading-2 {
@@ -43,24 +43,24 @@ body {
   font-style: italic;
   line-height: 1; }
   .heading-2--light {
-    color: #f9f7f6; }
+    color: #EDDBCD; }
   .heading-2--dark {
     color: #54483A; }
 
 .heading-3 {
   font-size: 1.6rem;
-  color: #c69963;
+  color: #CDA34F;
   text-transform: uppercase; }
 
 .heading-4 {
   font-size: 1.9rem; }
   .heading-4--light {
-    color: #f9f7f6; }
+    color: #EDDBCD; }
   .heading-4--dark {
     color: #54483A; }
 
 .btn {
-  background-color: #c69963;
+  background-color: #CDA34F;
   color: #fff;
   border: none;
   border-radius: 0;
@@ -71,7 +71,7 @@ body {
   cursor: pointer;
   transition: all .2s; }
   .btn:hover {
-    background-color: #B28451; }
+    background-color: #373F27; }
 
 .mb-sm {
   margin-bottom: 2rem; }
@@ -86,7 +86,7 @@ body {
   margin-bottom: 8rem; }
 
 .sidebar {
-  background-color: #c69963;
+  background-color: #CDA34F;
   grid-column: sidebar-start / sidebar-end;
   grid-row: 1 / -1;
   display: flex;
@@ -127,7 +127,7 @@ body {
 .header {
   background-color: #54483A;
   grid-column: full-start / col-end 6;
-  background-image: linear-gradient(rgba(17, 41, 51, 0.53), rgba(17, 41, 51, 0.53)), url(../img/vermont.jpeg);
+  background-image: linear-gradient(rgba(181, 99, 87, 0.53), rgba(181, 99, 87, 0.53)), url(../img/vermont.jpeg);
   background-size: cover;
   background-position: center;
   padding: 8rem;
@@ -151,7 +151,7 @@ body {
     justify-self: start; }
 
 .calendar {
-  background-color: #112933;
+  background-color: #B56357;
   grid-column: col-start 7 / full-end;
   padding: 3rem;
   display: grid;
@@ -201,7 +201,7 @@ body {
   grid-row-gap: 1.5rem;
   grid-column-gap: 2.5rem; }
   .feature__icon {
-    fill: #c69963;
+    fill: #CDA34F;
     width: 4.5rem;
     height: 4.5rem;
     grid-row: 1 / span 2;
@@ -210,7 +210,7 @@ body {
     font-size: 1.7rem; }
 
 .story__pictures {
-  background-color: #c69963;
+  background-color: #CDA34F;
   grid-column: full-start / col-end 4;
   display: grid; }
   @media only screen and (max-width: 50em) {
@@ -223,7 +223,7 @@ body {
   height: 100%; }
 
 .story__content {
-  background-color: #f9f7f6;
+  background-color: #EDDBCD;
   grid-column: col-start 5 / full-end;
   padding: 6rem 8vw;
   display: grid;
@@ -247,7 +247,7 @@ body {
   grid-gap: 7rem; }
 
 .shop {
-  background-color: #f9f7f6;
+  background-color: #EDDBCD;
   display: grid;
   grid-template-columns: repeat(2, 1fr);
   grid-row-gap: 3.5rem; }
@@ -267,7 +267,7 @@ body {
     font-size: 1.6rem;
     text-align: center;
     padding: 1.25rem;
-    background-color: #112933;
+    background-color: #B56357;
     color: #fff;
     font-weight: 400;
     transform: translateY(50%); }
@@ -278,7 +278,7 @@ body {
     display: flex;
     align-items: center; }
     .shop__location svg, .shop__price svg {
-      fill: #c69963;
+      fill: #CDA34F;
       height: 2rem;
       width: 2rem;
       margin-right: 1rem; }
@@ -287,7 +287,7 @@ body {
 
 .gallery {
   grid-column: full-start / full-end;
-  background-color: #f9f7f6;
+  background-color: #EDDBCD;
   display: grid;
   grid-template-columns: repeat(8, 1fr);
   grid-template-rows: repeat(7, 5vw);
@@ -342,7 +342,7 @@ body {
     display: block; }
 
 .footer {
-  background-color: #112933;
+  background-color: #B56357;
   grid-column: full-start / full-end;
   padding: 8rem; }
   .footer .nav {
