@@ -7,6 +7,12 @@ Redesign of a website for the town of white river junction. This is a portfolio 
 
 Design cred to @jonasschmedtman from Udemy - I completed his advanced CSS and SASS course (about 40 hours long) which I used as the preliminary layout for this project - I have customized every asset, image, font, and color to learn as much as possible from this exercise.
 
+This project helped to cement my skills with:
+• the BEM model
+• SVG's
+• file structure and partials
+• tricks (like hover effects)
+
 To initialize build process type into terminal: npm install
 
 To start webserver type into terminal: npm run start
