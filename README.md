@@ -1,7 +1,7 @@
 
 SASS Design Project
 Created by Paige Madeline Jones
-2019
+2019 paigemadelinejones.com
 
 Redesign of a website for the town of white river junction. This is a portfolio project solely with the use of practicing my skills in CSS/SASS/GULP and I am redesigning using grid layout.
 
