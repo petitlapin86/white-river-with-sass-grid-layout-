@@ -1,6 +1,11 @@
-Redesign of a website for the town of white river junction. This is a portfolio project soley with the use of practicing my skills in CSS/SASS/GULP and I am redesiging using grid layout.
 
-Design cred to @jonasschmedtman from Udemy - took his advanced CSS and SASS course which I used as the preliminary layout for this project - i have changed every asset to learn as much as possible.
+SASS Design Project
+Created by Paige Madeline Jones
+2019
+
+Redesign of a website for the town of white river junction. This is a portfolio project solely with the use of practicing my skills in CSS/SASS/GULP and I am redesigning using grid layout.
+
+Design cred to @jonasschmedtman from Udemy - I completed his advanced CSS and SASS course (about 40 hours long) which I used as the preliminary layout for this project - I have customized every asset, image, font, and color to learn as much as possible from this exercise.
 
 To initialize build process type into terminal: npm install
 
