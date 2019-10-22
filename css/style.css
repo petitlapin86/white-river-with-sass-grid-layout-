@@ -60,7 +60,7 @@ body {
     color: #54483A; }
 
 .btn {
-  background-color: #CDA34F;
+  background-color: #d2ac60;
   color: #fff;
   border: none;
   border-radius: 0;
@@ -85,8 +85,11 @@ body {
 .mb-hg {
   margin-bottom: 8rem; }
 
+h4 a:link {
+  cursor: pointer; }
+
 .sidebar {
-  background-color: #CDA34F;
+  background-color: #d2ac60;
   grid-column: sidebar-start / sidebar-end;
   grid-row: 1 / -1;
   display: flex;
@@ -143,9 +146,6 @@ body {
   @media only screen and (max-width: 37.5em) {
     .header {
       padding: 5rem; } }
-  .header__logo {
-    height: 3rem;
-    justify-self: center; }
   .header__btn {
     align-self: start;
     justify-self: start; }
@@ -174,9 +174,10 @@ body {
     @media only screen and (max-width: 37.5em) {
       .calendar__list {
         grid-template-columns: min-content max-content; } }
+  .calendar__details {
+    padding: 2px; }
   .calendar__icon {
-    width: 7rem;
-    fill: #CDA34F;
+    fill: #d2ac60;
     width: 4.5rem;
     height: 4.5rem; }
   .calendar__info {
@@ -202,7 +203,7 @@ body {
   grid-row-gap: 1.5rem;
   grid-column-gap: 2.5rem; }
   .feature__icon {
-    fill: #CDA34F;
+    fill: #d2ac60;
     width: 4.5rem;
     height: 4.5rem;
     grid-row: 1 / span 2;
@@ -211,7 +212,7 @@ body {
     font-size: 1.7rem; }
 
 .story__pictures {
-  background-color: #CDA34F;
+  background-color: #d2ac60;
   grid-column: full-start / col-end 4;
   display: grid; }
   @media only screen and (max-width: 50em) {
@@ -279,12 +280,17 @@ body {
     display: flex;
     align-items: center; }
     .shop__location svg, .shop__price svg {
-      fill: #CDA34F;
+      fill: #d2ac60;
       height: 2rem;
       width: 2rem;
       margin-right: 1rem; }
   .shop__btn {
-    grid-column: 1 / -1; }
+    grid-column: 1 / -1;
+    -webkit-appearance: button;
+    -moz-appearance: button;
+    appearance: button;
+    text-decoration: none;
+    color: initial; }
 
 .gallery {
   grid-column: full-start / full-end;
