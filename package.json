@@ -2,7 +2,7 @@
   "name": "WRJ",
   "version": "1.0.0",
   "description": "White River Junction webpage",
-  "main": "index.js",
+  "main": "index.html",
   "scripts": {
     "watch:sass": "node-sass sass/main.scss css/style.css -w",
     "devserver": "live-server",

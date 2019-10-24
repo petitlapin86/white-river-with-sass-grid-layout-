@@ -10,6 +10,21 @@
         <link rel="shortcut icon" type="image/png" href="img/vermont.png">
 
         <title>White River Junction &mdash; Journey Through The Green Mountains</title>
+
+        <!--This is for the heading "button" that changes on click-->
+        <script>
+          window.onload=function(){
+          var button = document.getElementById("example-three");
+          button.addEventListener('click', function() {
+          if (button.getAttribute("data-text-swap") == button.innerHTML) {
+          button.innerHTML = button.getAttribute("data-text-original");
+          } else {
+          button.setAttribute("data-text-original", button.innerHTML);
+          button.innerHTML = button.getAttribute("data-text-swap");
+          }
+          }, false)};
+        </script>
+
     </head>
     <body class="container">
       <div class="sidebar">
@@ -17,15 +32,16 @@
       </div>
 
       <header class="header">
-        <img src="img/vermont.svg" alt="WRJ Logo" align="left" width=100%>
-        <h3 class="heading-3">Journey Through The Green Mountains</h3>
+      <img src="" alt="" align="left" width=100%>
+        <h3 class="heading-3">Journey Through The Green Mountains To</h3>
 
         <h1 class="heading-1">White River Junction</h1>
-        <button class="btn header__btn">Adventure Awaits</button>
+        <!--a js button switches what it says on click--->
+        <button id="example-three" data-text-swap="Adventure Awaits" class="btn header__btn">In The Brooklyn of Vermont</button>
       </header>
 
-      <div class="calendar">
-<h3 class="heading-3">Event Highlights</h3>
+        <div class="calendar">
+          <h3 class="heading-3">Event Highlights</h3>
         <div class="calendar__list">
 
 
@@ -300,6 +316,11 @@
           &copy; Copyright 2019 by <a onclick="window.open('https://www.paigemadelinejones.com/');">Paige Madeline Jones</a>
         </p>
       </footer>
+
+
+
     </body>
+
+
 
 </html>

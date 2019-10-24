@@ -50,7 +50,8 @@ body {
 .heading-3 {
   font-size: 1.6rem;
   color: #EDDBCD;
-  text-transform: uppercase; }
+  text-transform: uppercase;
+ }
 
 .heading-4 {
   font-size: 1.9rem; }
@@ -84,9 +85,6 @@ body {
 
 .mb-hg {
   margin-bottom: 8rem; }
-
-h4 a:link {
-  cursor: pointer; }
 
 .sidebar {
   background-color: #d2ac60;
