@@ -144,9 +144,11 @@ body {
   @media only screen and (max-width: 37.5em) {
     .header {
       padding: 5rem; } }
-  .header__btn {
-    align-self: start;
-    justify-self: start; }
+    .header__btn {
+      align-self: start;
+      justify-self: start;
+      outline: 0;
+      box-shadow: none!important; } /*this line removes the default blue glow after click*/
 
 .calendar {
   background-color: #B56357;
