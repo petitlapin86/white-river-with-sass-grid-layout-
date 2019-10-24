@@ -50,8 +50,7 @@ body {
 .heading-3 {
   font-size: 1.6rem;
   color: #EDDBCD;
-  text-transform: uppercase;
- }
+  text-transform: uppercase; }
 
 .heading-4 {
   font-size: 1.9rem; }
@@ -144,11 +143,9 @@ body {
   @media only screen and (max-width: 37.5em) {
     .header {
       padding: 5rem; } }
-    .header__btn {
-      align-self: start;
-      justify-self: start;
-      outline: 0;
-      box-shadow: none!important; } /*this line removes the default blue glow after click*/
+  .header__btn {
+    align-self: start;
+    justify-self: start; }
 
 .calendar {
   background-color: #B56357;
