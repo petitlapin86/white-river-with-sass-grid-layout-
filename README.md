@@ -12,6 +12,7 @@ This project helped to cement my skills with:
 • SVG's
 • file structure and partials
 • tricks (like hover effects)
+• grid layout
 
 To initialize build process type into terminal: npm install
 
